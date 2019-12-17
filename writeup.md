@@ -1,7 +1,7 @@
 
 I made a challenge named [printer](https://github.com/bash-c/rwctf2019-final-printer/blob/master/description.md) with [@swing](https://twitter.com/bestswngs) for RWCTF 2019 Final. Congratulations to [@ALLES!](https://twitter.com/allesctf) and [@PPP](https://twitter.com/PlaidCTF) who solved it during the game.
 
-> Thanks to [@YmCode](https://twitter.com/DuoDuo20989667) and [@leommxj](https://twitter.com/leommxj) who contribute to this challenge
+> Thanks [@YmCode](https://twitter.com/DuoDuo20989667) and [@leommxj](https://twitter.com/leommxj) for contributing to this challenge
 
 In brief, `printer` is designed upon [cups](https://www.cups.org/), which implements a printing system based on IPP (Internet Printing Protocol). And this challenge could be solved by a memory disclosure issue (rdar://51373853, fixed in [2c030c7a](https://github.com/apple/cups/commit/2c030c7a06e0c2b8227c7e85f5c58dfb339731d0#diff-969d2ab030004bf3ccdd214161658a15)) and a use-after-free vulnerability introduced by my patch.
 
